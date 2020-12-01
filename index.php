@@ -56,6 +56,50 @@
 					</div><!-- w100 -->
 
 					<div class="w100">
+						<h2>Data de Nascimento:</h2>
+						<select name="nasc-dia" class="nasc">
+							<?php
+								for($i=1; $i <= 31; $i++){
+							?>
+							<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+							<?php } ?>
+						</select>
+						<select name="nasc-mes" class="nasc">
+							<option value="0">Janeiro</option>
+							<option value="1">Fevereiro</option>
+							<option value="2">Março</option>
+							<option value="3">Abril</option>
+							<option value="4">Maio</option>
+							<option value="5">Junho</option>
+							<option value="6">Julho</option>
+							<option value="7">Agosto</option>
+							<option value="8">Setembro</option>
+							<option value="9">Outubro</option>
+							<option value="10">Novembro</option>
+							<option value="11">Dezembro</option>
+						</select>
+						<select name="nasc-ano" class="nasc">
+							<?php
+								for($i=1960; $i <= 2020; $i++){
+							?>
+							<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+							<?php } ?>
+						</select>
+						<div class="clear"></div>
+					</div><!-- w100 -->
+
+					<div class="w100">
+						<div class="input-radio">
+							<input type="radio" name="sexo" value="masculino"><h2>Masculino</h2>
+						</div><!-- input-radio -->
+						<div class="input-radio">
+							<input type="radio" name="sexo" value="feminino">
+							<h2>Feminino</h2>
+						</div><!-- input-radio -->
+						<div class="clear"></div>
+					</div><!-- w100 -->
+
+					<div class="w100">
 						<input type="submit" name="acao" value="Cadastrar">
 					</div><!-- w100 -->
 
@@ -66,6 +110,33 @@
 			<div class="clear"></div>
 		</div><!-- center -->
 	</section><!-- main -->
+
+	<section class="linguas">
+		<div class="center">
+			<a class="lingua-selecionada" href="#">Português (BR)</a>
+			<a href="#">English (US)</a>
+			<a href="#">Português (BR)</a>
+			<a href="#">Português (BR)</a>
+			<a href="#">Português (BR)</a>
+		</div><!-- center -->
+		<div style="border:0; padding-top: 10px;" class="center">
+			<a href="#">Algum link</a>
+			<a href="#">Algum link</a>
+			<a href="#">Algum link</a>
+			<a href="#">Algum link</a>
+			<a href="#">Algum link</a>
+			<a href="#">Algum link</a>
+			<a href="#">Algum link</a>
+			<a href="#">Algum link</a>
+			<a href="#">Algum link</a>
+			<a href="#">Algum link</a>
+			<a href="#">Algum link</a>
+			<a href="#">Algum link</a>
+			<a href="#">Algum link</a>
+			<a href="#">Algum link</a>
+			<a href="#">Algum link</a>
+		</div><!-- center -->
+	</section><!-- linguas -->
 
 </body>
 </html>
