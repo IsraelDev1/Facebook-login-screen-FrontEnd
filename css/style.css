@@ -143,6 +143,10 @@ form .w100 h2{
 	font-weight: normal;
 }
 
+form select{
+	padding: 5px;
+}
+
 form select.nasc{
 	float: left;
 	margin-top: 5px;
@@ -183,4 +187,46 @@ section.linguas .center{
 	padding-right: 8px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #ccc;
+}
+
+@media screen and (max-width: 768px){
+	.logo{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	form.form-login{
+		margin-top: 15px;
+		float: none;
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+	}
+	.form-login .form-element{
+		display: block;
+		margin: 7px 0;
+	}
+	.form-element p{
+		color: white;
+		font-size: 14px;
+	}
+	.form-element input[type=email],
+	.form-element input[type=password]{
+		margin-top: 4px;
+		border: 0;
+		height: 22px;
+		padding-left: 3px;
+		width: 100%;
+		max-width: 320px;
+	}
+	.form-element input[type=submit]{
+		width: 150px;
+	}
+	.img-pessoas{
+		display: none;
+	}
+	.abrir-conta{
+		width: 100%;
+	}
+
 }

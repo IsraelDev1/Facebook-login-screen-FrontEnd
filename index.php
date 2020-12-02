@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login facebook</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Tela de login do Facebook feita com HTML e CSS</title>
+	<meta name="description" content="Essa página de login do facebook foi feita completamente com essas duas tecnologias simples da web!">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -34,9 +36,8 @@
 	<section class="main">
 		<div class="center">
 			<div class="img-pessoas">
-				<img src="imagens/img1.png">
+				<img src="imagens/img1.png" alt="Tela de login do Facebook com HTML e CSS">
 			</div>
-
 			<div class="abrir-conta">
 				<h2>Abra sua conta</h2>
 				<h3>É gratuito e sempre será!</h3>
@@ -119,7 +120,7 @@
 			<a href="#">Português (BR)</a>
 			<a href="#">Português (BR)</a>
 		</div><!-- center -->
-		<div style="border:0; padding-top: 10px;" class="center">
+		<div style="padding-top: 10px;" class="center">
 			<a href="#">Algum link</a>
 			<a href="#">Algum link</a>
 			<a href="#">Algum link</a>
@@ -135,6 +136,9 @@
 			<a href="#">Algum link</a>
 			<a href="#">Algum link</a>
 			<a href="#">Algum link</a>
+		</div><!-- center -->
+		<div style="border: 0; padding-top: 10px;" class="center">
+			<a href="#"><p>&copyISRAEL 2020</p></a>
 		</div><!-- center -->
 	</section><!-- linguas -->
 
